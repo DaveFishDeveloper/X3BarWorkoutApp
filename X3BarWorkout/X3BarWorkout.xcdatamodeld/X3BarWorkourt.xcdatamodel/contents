@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18G1012" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BandsList" representedClassName="BandsList" syncable="YES" codeGenerationType="class">
+        <attribute name="bandColor" optional="YES" attributeType="String"/>
+        <attribute name="bandIncluded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="bandMaximumWeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bandMinimumWeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bandName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ExercisesList" representedClassName="ExercisesList" syncable="YES" codeGenerationType="class">
+        <attribute name="group" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="included" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Languages" representedClassName="Languages" syncable="YES" codeGenerationType="class">
+        <attribute name="languageCode" optional="YES" attributeType="String"/>
+        <attribute name="languageName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PersonalInfo" representedClassName="PersonalInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="measurementSystem" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WorkoutExercises" representedClassName="WorkoutExercises" syncable="YES" codeGenerationType="class">
+        <attribute name="advancedHold" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="band" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exerciseID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="fullReps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="partialReps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workoutID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="WorkoutsList" representedClassName="WorkoutsList" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="workoutDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="workoutNotes" optional="YES" attributeType="String"/>
+        <attribute name="workoutType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="BandsList" positionX="-58.71484375" positionY="23.7734375" width="128" height="118"/>
+        <element name="ExercisesList" positionX="99" positionY="-225" width="128" height="88"/>
+        <element name="PersonalInfo" positionX="126" positionY="-198" width="128" height="178"/>
+        <element name="WorkoutExercises" positionX="257.09765625" positionY="-376.859375" width="128" height="133"/>
+        <element name="WorkoutsList" positionX="187.01953125" positionY="-63.5234375" width="128" height="103"/>
+        <element name="Languages" positionX="99" positionY="-225" width="128" height="73"/>
+    </elements>
+</model>
